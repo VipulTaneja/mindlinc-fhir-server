@@ -6,6 +6,10 @@ spring:
     password: null
     driverClassName: org.h2.Driver
     max-active: 15
+#    url: 'jdbc:postgresql://localhost:5432/hapi_dstu3'
+#    username: admin
+#    password: admin
+#    driverClassName: org.postgresql.Driver
   jpa:
     properties:
       hibernate.format_sql: false
